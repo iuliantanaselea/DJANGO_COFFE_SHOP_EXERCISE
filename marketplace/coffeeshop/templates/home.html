@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Coffee: Fuel for deep thoughts and early mornings.</h2>
+    {% for entry in home %}
+        <p>{{ entry.home }}</p>
+    {% endfor %}
+{% endblock %}
